@@ -15,7 +15,7 @@ export default function Home() {
 				/>
 			</Head>
 
-			<div className="border-zinc-800 pt-8">
+			<div className="border-zinc-800 pt-2 md:pt-8">
 				<div className="max-w-7xl flex h-24 justify-between items-center px-12 md:px-0 mx-auto ">
 					<nav className="flex items-center font-bold space-x-4 md:space-x-8 text-sm md:text-base">
 						{/* <h1 className="font-extrabold text-2xl rounded-full border border-zinc-700 p-4 mr-3">
@@ -72,7 +72,7 @@ export default function Home() {
 							/>
 						</div>
 					</div>
-					<div className="flex justify-center items-center py-8">
+					<div className="flex justify-center items-center py-2 md:py-8">
 						<div className="inline-block w-6 h-0.5 bg-zinc-500 rotate-45"></div>
 						<div className="inline-block w-6 h-0.5 bg-zinc-500 -rotate-45 -ml-2"></div>
 					</div>
