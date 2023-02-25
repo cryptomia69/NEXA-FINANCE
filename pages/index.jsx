@@ -16,8 +16,8 @@ export default function Home() {
 			</Head>
 
 			<div className="border-zinc-800 pt-8">
-				<div className="max-w-7xl flex h-24 justify-between items-center mx-auto">
-					<nav className="flex items-center font-bold space-x-8">
+				<div className="max-w-7xl flex h-24 justify-between items-center px-12 md:px-0 mx-auto ">
+					<nav className="flex items-center font-bold space-x-4 md:space-x-8 text-sm md:text-base">
 						{/* <h1 className="font-extrabold text-2xl rounded-full border border-zinc-700 p-4 mr-3">
 							RR
 						</h1> */}
@@ -36,7 +36,7 @@ export default function Home() {
 					</nav>
 					<div className="flex">
 						<Link href="https://play.roborift.world/">
-							<a className="px-5 py-3 rounded-xl bg-pink-600 ml-3 font-semibold text-sm">
+							<a className="px-5 py-3 rounded-xl bg-pink-600 ml-3 font-semibold text-sm hidden md:block">
 								Play Game
 							</a>
 						</Link>
@@ -44,11 +44,11 @@ export default function Home() {
 				</div>
 			</div>
 
-			<main className="max-w-7xl mx-auto my-5">
+			<main className="max-w-7xl mx-auto my-2 2xl:my-5">
 				<div>
-					<div className="flex justify-between items-center py-12">
+					<div className="text-center md:text-left flex flex-col md:flex-row justify-between items-center py-2 2xl:py-12 mx-14 2xl:mx-0">
 						<div className="max-w-xl ml-5">
-							<h2 className="font-orbitron text-5xl font-bold my-4 leading-tight tracking-wide">
+							<h2 className="font-orbitron text-3xl md:text-5xl font-bold my-4 leading-tight tracking-wide">
 								Welcome to the future, players!
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
@@ -62,7 +62,7 @@ export default function Home() {
 								</a>
 							</Link>
 						</div>
-						<div className="">
+						<div className="w-auto lg:w-96 2xl:w-auto my-8 md:my-0">
 							<Image
 								src="/server.png"
 								alt="Server"
@@ -79,15 +79,17 @@ export default function Home() {
 				</div>
 				<div className="my-24">
 					<div>
-						<p className="font-orbitron text-sm tracking-[0.5em] text-pink-500 text-center py-4">
+						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-pink-500 text-center py-2 md:py-4">
 							GAMEPLAY
 						</p>
-						<h2 className="text-center text-5xl font-bold">About the game</h2>
+						<h2 className="text-center text-3xl md:text-5xl font-bold">
+							About the game
+						</h2>
 					</div>
-					<div className=" my-16">
-						<div className="flex justify-between items-center my-5 mx-10">
-							<div className="w-1/2">
-								<h2 className="font-semibold text-3xl text-left font-orbitron tracking-widest my-2">
+					<div className=" my-16 text-center md:text-left">
+						<div className="flex flex-col md:flex-row justify-between items-center my-5 mx-10">
+							<div className="w-full md:w-1/2">
+								<h2 className="font-semibold text-3xl font-orbitron tracking-widest my-2">
 									Staking
 								</h2>
 								<p className="text-zinc-400">
@@ -97,7 +99,7 @@ export default function Home() {
 									champion. Start staking now towards becoming king of the rift.
 								</p>
 							</div>
-							<div>
+							<div className="py-8">
 								<Image
 									src="/drive.png"
 									alt="Drive Staking"
@@ -107,9 +109,9 @@ export default function Home() {
 								/>
 							</div>
 						</div>
-						<div className="flex flex-row-reverse justify-between items-center my-5 mx-10">
-							<div className="w-1/2">
-								<h2 className="font-semibold text-3xl text-left font-orbitron tracking-widest my-2">
+						<div className="flex flex-col md:flex-row justify-between items-center my-5 mx-10">
+							<div className="w-full md:w-1/2">
+								<h2 className="font-semibold text-3xl font-orbitron tracking-widest my-2">
 									Training Rift
 								</h2>
 								<p className="text-zinc-400">
@@ -121,7 +123,7 @@ export default function Home() {
 									mettle in the Training Arena!
 								</p>
 							</div>
-							<div>
+							<div className="py-8">
 								<Image
 									src="/training.png"
 									alt="Training"
@@ -131,42 +133,44 @@ export default function Home() {
 								/>
 							</div>
 						</div>
-					</div>
-					<div className="flex justify-between items-center my-5 mx-10">
-						<div className="w-1/2">
-							<h2 className="font-semibold text-3xl text-left font-orbitron tracking-widest my-2">
-								Royal Arena
-							</h2>
-							<p className="text-zinc-400">
-								Ready to prove you&apos;re one of the best? Step into the Royal
-								Arena and battle against the most powerful robots in the
-								universe. With the right skills and equipment, you can take your
-								place among the elite and claim substantial rewards, including
-								Rift Alpha (RA) and rare equipment. So, if you&apos;re ready for
-								the ultimate showdown, then it&apos;s time to enter the Royal
-								Arena and battle for glory!
-							</p>
-						</div>
-						<div>
-							<Image
-								src="/royal-arena.png"
-								alt="Royal Arena"
-								width={500}
-								height={500}
-								className="object-contain"
-							/>
+						<div className="flex flex-col md:flex-row justify-between items-center my-5 mx-10">
+							<div className="w-full md:w-1/2">
+								<h2 className="font-semibold text-3xl font-orbitron tracking-widest my-2">
+									Royal Arena
+								</h2>
+								<p className="text-zinc-400">
+									Ready to prove you&apos;re one of the best? Step into the
+									Royal Arena and battle against the most powerful robots in the
+									universe. With the right skills and equipment, you can take
+									your place among the elite and claim substantial rewards,
+									including Rift Alpha (RA) and rare equipment. So, if
+									you&apos;re ready for the ultimate showdown, then it&apos;s
+									time to enter the Royal Arena and battle for glory!
+								</p>
+							</div>
+							<div className="py-8">
+								<Image
+									src="/royal-arena.png"
+									alt="Royal Arena"
+									width={500}
+									height={500}
+									className="object-contain"
+								/>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div className="my-24" id="roadmap">
+				<div className="my-18 md:my-24" id="roadmap">
 					<div>
-						<p className="font-orbitron text-sm tracking-[0.5em] text-pink-500 text-center py-4">
+						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-pink-500 text-center py-2 md:py-4">
 							ROADMAP
 						</p>
-						<h2 className="text-center text-5xl font-bold">Our project plan</h2>
+						<h2 className="text-center text-3xl md:text-5xl font-bold">
+							Our project plan
+						</h2>
 					</div>
-					<div className="grid grid-cols-2 gap-12 my-20">
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-20 mx-10">
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
 							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
 								1. Atomic collection
