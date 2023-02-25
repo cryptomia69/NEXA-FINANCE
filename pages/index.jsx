@@ -28,16 +28,18 @@ export default function Home() {
 							height={50}
 							className="object-contain"
 						/>
-						<Link href="#">Discord</Link>
+						<Link href="https://discord.gg/34HAq7DYAQ">Discord</Link>
 						<Link href="https://robo-rift.gitbook.io/robo-rift-whitepaper/">
 							Whitepaper
 						</Link>
-						<Link href="#">Roadmap</Link>
+						<Link href="#roadmap">Roadmap</Link>
 					</nav>
 					<div className="flex">
-						<button className="px-5 py-3 rounded-xl bg-pink-600 ml-3 font-semibold text-sm">
-							Play Game
-						</button>
+						<Link href="https://play.roborift.world/">
+							<a className="px-5 py-3 rounded-xl bg-pink-600 ml-3 font-semibold text-sm">
+								Play Game
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -54,9 +56,11 @@ export default function Home() {
 								player-to-player (P2P) game where you&apos;ll experience the
 								thrill of robot fighting and staking.
 							</p>
-							<a className="px-8 py-3 rounded-xl bg-pink-600 font-semibold my-5">
-								Play Now
-							</a>
+							<Link href="https://play.roborift.world/">
+								<a className="px-8 py-3 rounded-xl bg-pink-600 font-semibold my-5">
+									Play Now
+								</a>
+							</Link>
 						</div>
 						<div className="">
 							<Image
@@ -155,7 +159,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="my-24">
+				<div className="my-24" id="roadmap">
 					<div>
 						<p className="font-orbitron text-sm tracking-[0.5em] text-pink-500 text-center py-4">
 							ROADMAP
