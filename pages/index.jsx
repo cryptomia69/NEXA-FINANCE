@@ -99,7 +99,7 @@ export default function Home() {
 									champion. Start staking now towards becoming king of the rift.
 								</p>
 							</div>
-							<div className="py-8">
+							<div className="py-8 md:py-0">
 								<Image
 									src="/drive.png"
 									alt="Drive Staking"
@@ -109,7 +109,7 @@ export default function Home() {
 								/>
 							</div>
 						</div>
-						<div className="flex flex-col md:flex-row justify-between items-center my-5 mx-10">
+						<div className="flex flex-col md:flex-row-reverse justify-between items-center my-5 mx-10">
 							<div className="w-full md:w-1/2">
 								<h2 className="font-semibold text-3xl font-orbitron tracking-widest my-2">
 									Training Rift
@@ -123,7 +123,7 @@ export default function Home() {
 									mettle in the Training Arena!
 								</p>
 							</div>
-							<div className="py-8">
+							<div className="py-8 md:py-0">
 								<Image
 									src="/training.png"
 									alt="Training"
@@ -148,7 +148,7 @@ export default function Home() {
 									time to enter the Royal Arena and battle for glory!
 								</p>
 							</div>
-							<div className="py-8">
+							<div className="py-8 md:py-0">
 								<Image
 									src="/royal-arena.png"
 									alt="Royal Arena"
