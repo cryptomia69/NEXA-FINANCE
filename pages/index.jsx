@@ -15,24 +15,31 @@ export default function Home() {
 				/>
 			</Head>
 
-			<div className="border-zinc-800 pt-2 md:pt-8">
-				<div className="max-w-7xl flex h-24 justify-between items-center px-12 md:px-0 mx-auto ">
+			<div className="border-zinc-800 pt-2 md:pt-8 md:mx-5">
+				<div className="max-w-7xl flex h-24 justify-between items-center px-12 md:px-0 mx-auto">
 					<nav className="flex items-center font-bold space-x-4 md:space-x-8 text-sm md:text-base">
 						{/* <h1 className="font-extrabold text-2xl rounded-full border border-zinc-700 p-4 mr-3">
 							RR
 						</h1> */}
-						<Image
-							src="/logo-1.png"
-							alt="Logo"
-							width={50}
-							height={50}
-							className="object-contain"
-						/>
+						<div className="w-10 md:w-auto">
+							<Image
+								src="/logo-1.png"
+								alt="Logo"
+								width={50}
+								height={50}
+								className="object-contain"
+							/>
+						</div>
 						<Link href="https://discord.gg/34HAq7DYAQ">Discord</Link>
 						<Link href="https://robo-rift.gitbook.io/robo-rift-whitepaper/">
 							Whitepaper
 						</Link>
-						<Link href="#roadmap">Roadmap</Link>
+						<Link href="#roadmap">
+							<a className="hidden md:block">Roadmap</a>
+						</Link>
+						<Link href="https://utility.roborift.world/">
+							<a className="">Utilities</a>
+						</Link>
 					</nav>
 					<div className="flex">
 						<Link href="https://play.roborift.world/">
@@ -46,7 +53,7 @@ export default function Home() {
 
 			<main className="max-w-7xl mx-auto my-2 2xl:my-5">
 				<div>
-					<div className="text-center md:text-left flex flex-col md:flex-row justify-between items-center py-2 2xl:py-12 mx-14 2xl:mx-0">
+					<div className="text-center md:text-left flex flex-col md:flex-row justify-between items-center py-2 md:py-24 2xl:py-12 mx-14 2xl:mx-8">
 						<div className="max-w-xl ml-5">
 							<h2 className="font-orbitron text-3xl md:text-5xl font-bold my-4 leading-tight tracking-wide">
 								Welcome to the future, players!
