@@ -278,14 +278,14 @@ export default function Home() {
 
 				<hr className="border-zinc-800" />
 
-				<div className="flex justify-between items-center">
+				<div className="flex flex-col sm:flex-row text-center sm:text-left justify-between items-center mx-8 my-14">
 					<div>
 						<h4 className="font-orbitron text-3xl font-bold tracking-wider py-1">
 							RoboRift
 						</h4>
 						<p className="text-sm">&copy; 2023. All rights reserved.</p>
 					</div>
-					<div className="flex flex-col items-end mt-16 mb-10">
+					<div className="flex flex-col items-center sm:items-end pt-8 sm:pt-0">
 						<p className="text-sm py-1">Development partner</p>
 						<Link href="https://designholt.net/">
 							<a className="" target="_blank">
