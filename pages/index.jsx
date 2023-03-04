@@ -275,6 +275,31 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+
+				<hr className="border-zinc-800" />
+
+				<div className="flex justify-between items-center">
+					<div>
+						<h4 className="font-orbitron text-3xl font-bold tracking-wider py-1">
+							RoboRift
+						</h4>
+						<p className="text-sm">&copy; 2023. All rights reserved.</p>
+					</div>
+					<div className="flex flex-col items-end mt-16 mb-10">
+						<p className="text-sm py-1">Development partner</p>
+						<Link href="https://designholt.net/">
+							<a className="" target="_blank">
+								<Image
+									src="/designholt-logo.png"
+									alt="Designholt"
+									width={100}
+									height={22}
+									className="object-contain"
+								/>
+							</a>
+						</Link>
+					</div>
+				</div>
 			</main>
 		</div>
 	)
