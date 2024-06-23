@@ -22,13 +22,13 @@ export default function Home() {
 							RR
 						</h1> */}
 						<div className="w-10 md:w-auto">
-							<Image
+							{/* <Image
 								src="/logo-1.png"
 								alt="Logo"
 								width={50}
 								height={50}
 								className="object-contain"
-							/>
+							/> */}
 						</div>
 						<Link href="https://discord.gg/34HAq7DYAQ">Discord</Link>
 						<Link href="https://robo-rift.gitbook.io/robo-rift-whitepaper/">
@@ -43,7 +43,7 @@ export default function Home() {
 					</nav>
 					<div className="flex">
 						<Link href="https://play.roborift.world/">
-							<a className="px-5 py-3 rounded-xl bg-pink-600 ml-3 font-semibold text-sm hidden md:block">
+							<a className="px-5 py-3 rounded-xl btn-normal ml-3 font-semibold text-sm hidden md:block">
 								Play Game
 							</a>
 						</Link>
@@ -64,7 +64,7 @@ export default function Home() {
 								thrill of robot fighting and staking.
 							</p>
 							<Link href="https://play.roborift.world/">
-								<a className="px-8 py-3 rounded-xl bg-pink-600 font-semibold my-5">
+								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
 									Play Now
 								</a>
 							</Link>
@@ -86,7 +86,7 @@ export default function Home() {
 				</div>
 				<div className="my-24">
 					<div>
-						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-pink-500 text-center py-2 md:py-4">
+						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-sky-500 text-center py-2 md:py-4">
 							GAMEPLAY
 						</p>
 						<h2 className="text-center text-3xl md:text-5xl font-bold">
@@ -170,16 +170,16 @@ export default function Home() {
 
 				<div className="my-18 md:my-24" id="roadmap">
 					<div>
-						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-pink-500 text-center py-2 md:py-4">
+						<p className="font-orbitron text-xs md:text-sm tracking-[0.5em] text-sky-500 text-center py-2 md:py-4">
 							ROADMAP
 						</p>
 						<h2 className="text-center text-3xl md:text-5xl font-bold">
 							Our project plan
 						</h2>
 					</div>
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-20 mx-10">
+					<div className="grid grid-cols-1 gap-8 my-20 mx-10">
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								1. Atomic collection
 							</h3>
 							<p className="text-zinc-300">
@@ -187,7 +187,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								2. Game creating and website
 							</h3>
 							<p className="text-zinc-300">
@@ -195,13 +195,13 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								3. Completed smart contracts
 							</h3>
 							<p className="text-zinc-300">Smart contract for the game.</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								4. In-game Staking
 							</h3>
 							<p className="text-zinc-300">
@@ -209,7 +209,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								5. Application for whitelist
 							</h3>
 							<p className="text-zinc-300">
@@ -217,7 +217,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								6. Pass Sale
 							</h3>
 							<p className="text-zinc-300">
@@ -226,7 +226,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								7. Data pack sale
 							</h3>
 							<p className="text-zinc-300">
@@ -234,7 +234,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								8. In-game exchange & token listing on Alcor exchange
 							</h3>
 							<p className="text-zinc-300">
@@ -242,7 +242,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								9. In-game shop
 							</h3>
 							<p className="text-zinc-300">
@@ -250,7 +250,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								10. Robo & Rift pack sale
 							</h3>
 							<p className="text-zinc-300">
@@ -258,7 +258,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								11. Training rift & Royal arena
 							</h3>
 							<p className="text-zinc-300">
@@ -266,7 +266,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="bg-gray-800 border border-gray-700 px-8 py-5 rounded-xl">
-							<h3 className="font-orbitron text-pink-600 text-2xl tracking-widest font-semibold">
+							<h3 className="font-orbitron text-sky-600 text-2xl tracking-widest font-semibold">
 								12. PvP & Royal Rumble
 							</h3>
 							<p className="text-zinc-300">
