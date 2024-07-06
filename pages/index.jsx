@@ -7,11 +7,11 @@ export default function Home() {
 		<div className="text-white">
 			<Head>
 				<title>
-					RoboRift | The cutting-edge wax-based player-to-player (P2P) game
+					NEXA FINANCE | Forge Your Own Future
 				</title>
 				<meta
 					name="description"
-					content="The cutting-edge wax-based player-to-player (P2P) game"
+					content="An innovative financial ecosystem designed for the future."
 				/>
 			</Head>
 
@@ -59,9 +59,9 @@ export default function Home() {
 								Welcome to the future, players!
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
-								Welcome to Robo Rift, the cutting-edge wax-based
-								player-to-player (P2P) game where you&apos;ll experience the
-								thrill of robot fighting and staking.
+								Welcome to NEXA FINANCE, an innovative financial ecosystem designed for the future.
+								Engage in staking and earn passive income through strategic investments and resource management.
+								Join NEXA FINANCE and forge your path to financial success.
 							</p>
 							<Link href="https://play.roborift.world/">
 								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
@@ -71,8 +71,8 @@ export default function Home() {
 						</div>
 						<div className="w-auto lg:w-96 2xl:w-auto my-8 md:my-0">
 							<Image
-								src="/server.png"
-								alt="Server"
+								src="/token.png"
+								alt="Error Loading"
 								width={600}
 								height={600}
 								className="object-contain"
@@ -96,8 +96,8 @@ export default function Home() {
 					</div>
 					<div className="w-auto my-20 mx-10">
 						<Image
-							src="/roadmap.png"
-							alt="Server"
+							src="/roadmap2.png"
+							alt="Error Loading"
 							width={1280}
 							height={568.295988}
 							className="object-contain"
@@ -110,9 +110,9 @@ export default function Home() {
 				<div className="flex flex-col sm:flex-row text-center sm:text-left justify-between items-center mx-8 my-14">
 					<div>
 						<h4 className="font-sans text-3xl font-bold tracking-wider py-1">
-							RoboRift
+							NEXA FINANCE
 						</h4>
-						<p className="text-sm">&copy; 2023. All rights reserved.</p>
+						<p className="text-sm">&copy; 2024. All rights reserved.</p>
 					</div>
 					{/* <div className="flex flex-col items-center sm:items-end pt-8 sm:pt-0">
 						<p className="text-sm py-1">Development partner</p>
