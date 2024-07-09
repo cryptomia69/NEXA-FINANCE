@@ -30,7 +30,7 @@ export default function Home() {
 								className="object-contain"
 							/> */}
 						</div>
-						<Link href="https://discord.gg/34HAq7DYAQ">Discord</Link>
+						<Link href="https://t.me/nexafi">Join Community</Link>
 						<Link href="https://robo-rift.gitbook.io/robo-rift-whitepaper/">
 							Whitepaper
 						</Link>
