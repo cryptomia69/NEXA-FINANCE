@@ -23,7 +23,7 @@ export default function Home() {
 						</h1> */}
 						<div className="w-10 md:w-auto">
 							{/* <Image
-								src="/logo-1.png"
+								src="/nexalogo.png"
 								alt="Logo"
 								width={50}
 								height={50}
