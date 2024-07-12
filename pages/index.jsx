@@ -38,7 +38,7 @@ export default function Home() {
 							<a className="hidden md:block">Roadmap</a>
 						</Link>
 						<Link href="">
-							<a className="">Utilities</a>
+							<a className="">Airdrop</a>
 						</Link>
 					</nav>
 					<div className="flex">
