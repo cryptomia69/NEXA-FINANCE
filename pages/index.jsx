@@ -31,13 +31,13 @@ export default function Home() {
 							/> */}
 						</div>
 						<Link href="https://t.me/nexafi">Join Community</Link>
-						<Link href="https://robo-rift.gitbook.io/robo-rift-whitepaper/">
-							Whitepaper
+						<Link href="https://x.com/nexafinance?t=UQNgf2fQtz_YuhFNI8JQpA&s=09">
+							Twitter
 						</Link>
 						<Link href="#roadmap">
 							<a className="hidden md:block">Roadmap</a>
 						</Link>
-						<Link href="https://utility.roborift.world/">
+						<Link href="">
 							<a className="">Utilities</a>
 						</Link>
 					</nav>
