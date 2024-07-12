@@ -96,7 +96,7 @@ export default function Home() {
 					</div>
 					<div className="w-auto my-20 mx-10">
 						<Image
-							src="/roadmap2.png"
+							src="/roadmap3.png"
 							alt="Error Loading"
 							width={1280}
 							height={568.295988}
