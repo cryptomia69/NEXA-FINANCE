@@ -42,7 +42,7 @@ export default function Home() {
 						</Link>
 					</nav>
 					<div className="flex">
-						<Link href="Link here">
+						<Link href="https://t.me/nexafibot/app">
 							<a className="px-5 py-3 rounded-xl btn-normal ml-3 font-semibold text-sm hidden md:block">
 								Play Game
 							</a>
@@ -63,7 +63,7 @@ export default function Home() {
 								Engage in staking and earn passive income through strategic investments and resource management.
 								Join NEXA FINANCE and forge your path to financial success.
 							</p>
-							<Link href="link here">
+							<Link href="https://t.me/nexafibot/app">
 								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
 									Play Now
 								</a>
