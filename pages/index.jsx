@@ -34,8 +34,8 @@ export default function Home() {
 						<Link href="https://x.com/nexafinance?t=UQNgf2fQtz_YuhFNI8JQpA&s=09">
 							Twitter
 						</Link>
-						<Link href="#roadmap">
-							<a className="hidden md:block">Roadmap</a>
+						<Link href="https://nexa-finance.gitbook.io/nexa-finance/">
+							<a className="hidden md:block">Whitepaper</a>
 						</Link>
 						<Link href="">
 							<a className="">Airdrop</a>
