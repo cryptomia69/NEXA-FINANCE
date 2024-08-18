@@ -38,7 +38,7 @@ export default function Home() {
 							<a className="hidden md:block">Whitepaper</a>
 						</Link>
 						<Link href="">
-							<a className="">Airdrop</a>
+							<a className="https://spotlights.nexafinance.online/">Spotlights</a>
 						</Link>
 					</nav>
 					<div className="flex">
