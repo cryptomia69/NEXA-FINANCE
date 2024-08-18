@@ -37,7 +37,7 @@ export default function Home() {
 						<Link href="https://nexa-finance.gitbook.io/nexa-finance/">
 							<a className="hidden md:block">Whitepaper</a>
 						</Link>
-						<Link href="">
+						<Link href="https://spotlights.nexafinance.online/">
 							<a className="https://spotlights.nexafinance.online/">Spotlights</a>
 						</Link>
 					</nav>
