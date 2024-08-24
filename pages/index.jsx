@@ -7,7 +7,7 @@ export default function Home() {
 		<div className="text-white">
 			<Head>
 				<title>
-					NURO VOID | Forge Your Own Future
+					NURO VOID | Cultivate Your Future in the Void
 				</title>
 				<meta
 					name="description"
