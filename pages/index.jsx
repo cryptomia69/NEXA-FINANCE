@@ -59,6 +59,7 @@ export default function Home() {
 								Welcome to the future, players!
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
+								Welcome to the future, players!
 							</p>
 							<Link href="https://t.me/nexafibot/app">
 								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
