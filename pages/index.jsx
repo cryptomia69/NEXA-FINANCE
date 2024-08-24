@@ -56,10 +56,10 @@ export default function Home() {
 					<div className="text-center md:text-left flex flex-col md:flex-row justify-between items-center py-2 md:py-24 2xl:py-12 mx-14 2xl:mx-8">
 						<div className="max-w-xl ml-5">
 							<h2 className="font-sans text-3xl md:text-5xl font-bold my-4 leading-tight tracking-wide">
-								Welcome to the future, players!
+								Welcome to the void, players!
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
-								NeuroVoid is an engaging Telegram-based farming game where players collect Void
+								NuroVoid is an engaging Telegram-based farming game where players collect Void
 								points as they progress. These Void points are not just for show; they come with the promise of a
 								future NVDX airdrop, giving every player a guaranteed reward. Get ready to farm, collect, and
 								prepare for the upcoming NVDX drop in NuroVoid!
@@ -111,7 +111,7 @@ export default function Home() {
 				<div className="flex flex-col sm:flex-row text-center sm:text-left justify-between items-center mx-8 my-14">
 					<div>
 						<h4 className="font-sans text-3xl font-bold tracking-wider py-1">
-							NEXA FINANCE
+							NURO VOID
 						</h4>
 						<p className="text-sm">&copy; 2024. All rights reserved.</p>
 					</div>
