@@ -59,9 +59,9 @@ export default function Home() {
 								Welcome to the future, players!
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
-								Welcome to NEXA FINANCE, an innovative financial ecosystem designed for the future.
-								Engage in staking and earn passive income through strategic investments and resource management.
-								Join NEXA FINANCE and forge your path to financial success.
+								NuroVoid is an engaging Telegram-based farming game where players collect Void points as they progress.
+								These Void points aren't just for show; they come with the promise of a future NVDX airdrop,
+								giving every player a guaranteed reward. Get ready to farm, collect, and prepare for the upcoming NVDX drop in NuroVoid!
 							</p>
 							<Link href="https://t.me/nexafibot/app">
 								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
