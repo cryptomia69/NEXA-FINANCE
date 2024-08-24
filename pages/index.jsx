@@ -60,7 +60,7 @@ export default function Home() {
 							</h2>
 							<p className="text-zinc-400 mt-5 mb-10">
 								NeuroVoid is an engaging Telegram-based farming game where players collect Void
-								points as they progress. These Void points aren't just for show; they come with the promise of a
+								points as they progress. These Void points are not just for show; they come with the promise of a
 								future NVDX airdrop, giving every player a guaranteed reward. Get ready to farm, collect, and
 								prepare for the upcoming NVDX drop in NuroVoid!
 							</p>
