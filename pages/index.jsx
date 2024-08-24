@@ -7,7 +7,7 @@ export default function Home() {
 		<div className="text-white">
 			<Head>
 				<title>
-					NEXA FINANCE | Forge Your Own Future
+					NURO VOID | Forge Your Own Future
 				</title>
 				<meta
 					name="description"
