@@ -30,19 +30,19 @@ export default function Home() {
 								className="object-contain"
 							/> */}
 						</div>
-						<Link href="https://t.me/nexafi">Join Community</Link>
-						<Link href="https://x.com/nexafinance?t=UQNgf2fQtz_YuhFNI8JQpA&s=09">
+						<Link href="https://t.me/nurovoid">Join Community</Link>
+						<Link href="https://x.com/NuroVoid">
 							Twitter
 						</Link>
-						<Link href="https://nexa-finance.gitbook.io/nexa-finance/">
+						<Link href="">
 							<a className="hidden md:block">Whitepaper</a>
 						</Link>
-						<Link href="https://spotlights.nexafinance.online/">
-							<a className="https://spotlights.nexafinance.online/">Spotlights</a>
+						<Link href="">
+							<a className="https://spotlights.nexafinance.online/">Utility</a>
 						</Link>
 					</nav>
 					<div className="flex">
-						<Link href="https://t.me/nexafibot/app">
+						<Link href="https://t.me/nurovoidbot">
 							<a className="px-5 py-3 rounded-xl btn-normal ml-3 font-semibold text-sm hidden md:block">
 								Play Game
 							</a>
