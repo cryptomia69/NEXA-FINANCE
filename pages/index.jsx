@@ -64,7 +64,7 @@ export default function Home() {
 								future NVDX airdrop, giving every player a guaranteed reward. Get ready to farm, collect, and
 								prepare for the upcoming NVDX drop in NuroVoid!
 							</p>
-							<Link href="https://t.me/nexafibot/app">
+							<Link href="https://t.me/nurovoidbot">
 								<a className="px-8 py-3 rounded-xl btn-normal font-semibold my-5">
 									Play Now
 								</a>
